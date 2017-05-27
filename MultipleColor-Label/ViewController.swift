@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         // First Label with
         
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location:2,length:2))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location:2,length:2))
         lbl_First.attributedText = myMutableString
         
         
@@ -47,9 +47,9 @@ class ViewController: UIViewController {
         
         myMutableString = NSMutableAttributedString()
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location:2,length:2))
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.greenColor(), range: NSRange(location:5,length:5))
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blueColor(), range: NSRange(location:11,length:4))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location:2,length:2))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.green, range: NSRange(location:5,length:5))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSRange(location:11,length:4))
         lbl_Second.attributedText = myMutableString
         
         // third Label
@@ -57,9 +57,9 @@ class ViewController: UIViewController {
         
         myMutableString = NSMutableAttributedString()
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location:2,length:2))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location:2,length:2))
         myMutableString.addAttribute(NSFontAttributeName, value: UIFont(name: "AmericanTypewriter-Bold", size: 18.0)!, range: NSRange(location:5,length:5))
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blueColor(), range: NSRange(location:11,length:4))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSRange(location:11,length:4))
         lbl_Third.attributedText = myMutableString
         
         // fourth lable
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
         myMutableString.addAttribute(NSFontAttributeName,
             value: UIFont(name: "Georgia",size: 36.0)!,range: NSRange(location: 0,length: 1))
-        myMutableString.addAttribute(NSStrokeColorAttributeName,value: UIColor.blueColor(),range:  NSRange(location: 0,length: 1))
+        myMutableString.addAttribute(NSStrokeColorAttributeName,value: UIColor.blue,range:  NSRange(location: 0,length: 1))
         myMutableString.addAttribute(NSStrokeWidthAttributeName,value: 2,range: NSRange(location: 0,length: 1))
         lbl_Forth.attributedText = myMutableString
         
@@ -77,23 +77,23 @@ class ViewController: UIViewController {
         
         myMutableString = NSMutableAttributedString()
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
-        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.yellowColor(), range: NSRange(location:0,length:myString.length))
+        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.yellow, range: NSRange(location:0,length:myString.length))
         lbl_Fifth.attributedText = myMutableString
         
         // sixth
         
         myMutableString = NSMutableAttributedString()
         myMutableString = NSMutableAttributedString(string: myString as String, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 18.0)!])
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location:2,length:2))
-        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.yellowColor(), range: NSRange(location:2,length:2))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location:2,length:2))
+        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.yellow, range: NSRange(location:2,length:2))
         
         
         
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.greenColor(), range: NSRange(location:5,length:5))
-        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.blueColor(), range: NSRange(location:5,length:5))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.green, range: NSRange(location:5,length:5))
+        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.blue, range: NSRange(location:5,length:5))
         
-        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blueColor(), range: NSRange(location:11,length:4))
-        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.orangeColor(), range: NSRange(location:11,length:4))
+        myMutableString.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSRange(location:11,length:4))
+        myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.orange, range: NSRange(location:11,length:4))
         
         lbl_Six.attributedText = myMutableString
         
